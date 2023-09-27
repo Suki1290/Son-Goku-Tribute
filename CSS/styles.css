@@ -1,0 +1,163 @@
+header{
+    text-align:center;
+}
+
+body {
+    background-color: #f1c40f;
+  }
+  
+  h1 {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 3em;
+  }
+  
+  .img-div {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+  }
+  
+  .img-caption {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 1em;
+  }
+  
+  .tribute-info {
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 1.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  .animation-container {
+   display:none;
+   visibility:hidden;
+  }
+ 
+  
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #ff0000;
+  }
+  
+  .img-div img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .img-div img {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .img-div img:hover {
+    transform: scale(1.002);
+  }
+
+  /* Füge deinem CSS-Stilblatt folgenden Code hinzu: */
+
+  .tribute-info.about-Son-Goku {
+    border: 2px solid #ff9900; /* Eine orange Rahmenfarbe */
+    padding: 20px; /* Ein Innenabstand, um den Text vom Rahmen zu trennen */
+    border-radius: 20px; /* Runde Ecken für den Rahmen */
+    box-shadow: 0 0 10px rgba(112, 50, 50, 0.2); /* Eine leichte Schatten um den Rahmen */
+    
+  }
+  
+  
+  
+.transformation {
+    padding: 20px;
+    border: 2px solid #e0e0e0;
+    margin: 10px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .transformation:hover {
+    background-color: gold;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+  }
+  
+  .transformation h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+ 
+  .transformation-ssj {
+    background-image: url("img/ssj.webp");
+  }
+  
+  .transformation {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .transformation img {
+    max-width: 70%; 
+    height: auto;
+    margin: 0 auto;
+  }
+  
+  
+#superpowers {
+    margin-top: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #ff9900; 
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    padding: 20px;
+  }
+  
+  /* Stil für die Liste der Superkräfte */
+  #powers-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Stil für jede einzelne Superkraft */
+  .power {
+    margin-bottom: 20px;
+  }
+  
+  /* Stil für die Überschrift einer Superkraft */
+  .power h3 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  /* Stil für den Text einer Superkraft */
+  .power p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  /* Hervorhebung der Superkräfte beim Hover */
+  .power:hover {
+    background-color: #ff9900; 
+    transform: scale(1.02); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    cursor: pointer;
+  }
+  
